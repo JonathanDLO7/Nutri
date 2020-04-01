@@ -1,0 +1,40 @@
+#particles-js{
+    background: url(Imagenes/fondo3.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.ancho-letras{
+    top: 140px;
+    position: absolute; /* Al ponerlo en absoluto no respeta el orden de las cajas <div> 
+    Y se pone por encima de los demas <div> */
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+    
+}
+
+.Letras_con_animacion{
+    width: 80%;
+    margin: auto;
+}
+
+
+.Letras_con_animacion h1{
+    color:black;
+   /* font-family: rale; */
+    font-size: 70px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black;
+
+}
+
+
+.Letras_con_animacion  p{
+    color: rgba(255, 255, 255,1);
+    font-size: 25px;
+    font-family: rale;
+    padding-top: 280px;
+    
+}

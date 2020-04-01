@@ -1,0 +1,67 @@
+*{ /*Con esto se quita el padding que viene por defecto */
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    width: 100%; /* Nos conviene trabajar con porcentajes para hacerla responsiva despues */
+    background: rgba(0, 0, 0,.8);
+    height: 70px;
+    position: fixed; /* Con esto el contenedor se queda fijo, osea que aunque haga scroll seguiremos viendo el header en su lugar */
+}
+
+.ancho{ /* En esta division es donde iran el logo y los enlaces, es la que permite que tengan un cierto espacio a las orillas */
+    width: 80%;
+    height: 70px;
+   /* background-color: brown; */
+    margin: auto; /* Se centra la division */
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background-color: coral;*/
+    float: left; /* Manda el elemento lo mas izquierda posible */
+    padding-top: 10px;
+    box-sizing: border-box; /* Fuerza a que el elemento se ajuste a la medida inicial */
+}
+
+.logo p a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    /*background-color: darkgray;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline; /* con esta la lista se muestra de izquierda a derecha en lugar de arriba hacia abajo */
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 20 px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 35px; /*Espacio que hay entre cada elemento de la lista */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{ /*Cuando se pasa el link sobre los elementos */
+    color: #444;
+}
+
+@font-face{
+    font-family: rale;
+    src: url(fuentes/Raleway-Regular.ttf);
+}
