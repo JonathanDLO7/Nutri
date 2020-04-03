@@ -2,7 +2,8 @@
     background: url(Imagenes/fondo3.jpg);
     background-position: center;
     background-attachment: contain;
-    background-size: cover;
+    background-size: cover; 
+   
 }
 
 .ancho-letras{
