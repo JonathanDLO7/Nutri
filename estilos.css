@@ -63,7 +63,16 @@ nav ul li a:hover{ /*Cuando se pasa el link sobre los elementos */
 }
 
 .wsp{
+position:fixed;
+rigth: 25px;
+bottom: 100px;   
+width: 60px;    
 z-index:100000;
+}
+
+.wsp img{
+width:100%;
+heigth: auto;
 }
 
 @font-face{
