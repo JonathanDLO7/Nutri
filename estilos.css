@@ -62,6 +62,10 @@ nav ul li a:hover{ /*Cuando se pasa el link sobre los elementos */
     color: #444;
 }
 
+.wsp{
+z-index:100000;
+}
+
 @font-face{
     font-family: rale;
     src: url(fuentes/Raleway-Regular.ttf);
