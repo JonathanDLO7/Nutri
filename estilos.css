@@ -64,7 +64,7 @@ nav ul li a:hover{ /*Cuando se pasa el link sobre los elementos */
 
 .wsp{
 position:fixed;
-left: 25px;
+left: 80%;
 bottom: 100px;   
 width: 60px;    
 z-index:100000;
